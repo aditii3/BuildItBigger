@@ -60,7 +60,7 @@ class FetchJokeTask extends AsyncTask<Pair<Context, String>, Void, String> {
             return myApiService.getRandomJoke().execute().getText();
         } catch (IOException e) {
             Log.e(FetchJokeTask.class.getSimpleName(), e.getMessage());
-            return e.getMessage();
+            return null;
         }
     }
 

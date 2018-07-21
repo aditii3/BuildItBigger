@@ -1,21 +1,21 @@
 Warning: Google App Engine Java 7 runtime is deprecated.
 Warning: See https://cloud.google.com/appengine/docs/deprecations/java7
-Jul 20, 2018 8:07:49 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+Jul 21, 2018 2:28:09 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
 INFO: Overwriting system property key 'java.util.logging.config.file', value 'C:\Users\HP\AppData\Local\Google\Cloud SDK\google-cloud-sdk\platform\google_appengine\google\appengine\tools\java\config\sdk\logging.properties' with value 'WEB-INF/logging.properties' from 'C:\Users\HP\Desktop\n\p1\backend\build\exploded-backend\WEB-INF\appengine-web.xml'
-Jul 20, 2018 8:07:50 PM com.google.apphosting.utils.jetty.JettyLogger info
+Jul 21, 2018 2:28:10 PM com.google.apphosting.utils.jetty.JettyLogger info
 INFO: Logging to JettyLogger(null) via com.google.apphosting.utils.jetty.JettyLogger
-Jul 20, 2018 2:37:50 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+Jul 21, 2018 8:58:10 AM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
 WARNING: Your working directory, (C:\Users\HP\Desktop\n\p1) is not equal to your 
 web application root (C:\Users\HP\Desktop\n\p1\backend\build\exploded-backend)
 You will not be able to access files from your working directory on the production server.
 
-Jul 20, 2018 2:37:51 PM com.google.apphosting.utils.jetty.JettyLogger info
+Jul 21, 2018 8:58:11 AM com.google.apphosting.utils.jetty.JettyLogger info
 INFO: jetty-6.1.x
-Jul 20, 2018 2:37:55 PM com.google.apphosting.utils.jetty.JettyLogger info
+Jul 21, 2018 8:58:17 AM com.google.apphosting.utils.jetty.JettyLogger info
 INFO: Started SelectChannelConnector@localhost:8080
-Jul 20, 2018 2:37:55 PM com.google.appengine.tools.development.AbstractModule startup
+Jul 21, 2018 8:58:17 AM com.google.appengine.tools.development.AbstractModule startup
 INFO: Module instance default is running at http://localhost:8080/
-Jul 20, 2018 2:37:55 PM com.google.appengine.tools.development.AbstractModule startup
+Jul 21, 2018 8:58:17 AM com.google.appengine.tools.development.AbstractModule startup
 INFO: The admin console is running at http://localhost:8080/_ah/admin
-Jul 20, 2018 8:07:55 PM com.google.appengine.tools.development.DevAppServerImpl doStart
+Jul 21, 2018 2:28:17 PM com.google.appengine.tools.development.DevAppServerImpl doStart
 INFO: Dev App Server is now running
